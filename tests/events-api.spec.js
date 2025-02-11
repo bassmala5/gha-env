@@ -1,6 +1,7 @@
 // @ts-check
 // @ts-ignore
 import { test, expect } from '@playwright/test'; 
+const BASE_URL = 'http://127.0.0.1:8080';
 
 test('event creation', async ({ request }) => {
   const testTitle = 'Test event';
